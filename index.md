@@ -11,7 +11,7 @@ tagline: JavaScript
     	<a href="{{ post.url }}">
 	    <h2>{{ post.title }}</h2>
 	    </a>
-	    <span class="blogdate">{{ post.date | date: "%d %B %Y" }}</span>
+	    <br />
 	    <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
     </p>
   </li>
