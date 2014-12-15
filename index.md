@@ -12,7 +12,7 @@ tagline: JavaScript
 	    <h2>{{ post.title }}</h2>
 	    </a>
 	    <br />
-	    <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
+	    <div>{{ post.content |truncatehtml | truncatewords: 200 }}</div>
     </p>
   </li>
 {% endfor %}
